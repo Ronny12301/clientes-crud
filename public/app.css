@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton {
+    background-color: cornflowerblue;
+    border-color: transparent;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: rgb(132, 169, 240);
+}
+
+.boton:active {
+    background-color: rgb(86, 128, 206);
+}
+
+#esquina-izq {
+    border-radius: 10px 0 0 0;
+    padding: 0 1rem;
+}
+#esquina-der {
+    border-radius: 0 10px 0 0;
+}
+
+.encabezado-tabla {
+    background-color: rgb(189, 189, 189);
+    padding: 0.5rem 5rem;
+}
+
+table {
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+td {
+    padding: 0.5rem;
+}
+
+.btn-tabla {
+    border-color: transparent;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    padding: 3px 8px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-eliminar {
+    background-color: rgb(233, 14, 14);
+}
+.btn-eliminar:hover {
+    background-color: rgb(230, 69, 69);
+}
+.btn-eliminar:active {
+    background-color: rgb(190, 26, 26);
+}
+
+.btn-detalles {
+    background-color: rgb(60, 226, 69);
+}
+.btn-detalles:hover {
+    background-color: rgb(120, 241, 126);
+}
+.btn-detalles:active {
+    background-color: rgb(54, 192, 61);
+}
